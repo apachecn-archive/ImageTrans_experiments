@@ -1,0 +1,37 @@
+[
+    {
+        "imgName": "1.jpg",
+        "width": 707,
+        "startTime": 1580450157152,
+        "endTime": 1580450161618,
+        "height": 998
+    },
+    {
+        "imgName": "2.jpg",
+        "width": 707,
+        "startTime": 1580450161637,
+        "endTime": 1580450164851,
+        "height": 998
+    },
+    {
+        "imgName": "3.jpg",
+        "width": 707,
+        "startTime": 1580450164867,
+        "endTime": 1580450167677,
+        "height": 998
+    },
+    {
+        "imgName": "4.jpg",
+        "width": 707,
+        "startTime": 1580450167698,
+        "endTime": 1580450169733,
+        "height": 998
+    },
+    {
+        "imgName": "5.jpg",
+        "width": 707,
+        "startTime": 1580450169750,
+        "endTime": 1580450173232,
+        "height": 998
+    }
+]

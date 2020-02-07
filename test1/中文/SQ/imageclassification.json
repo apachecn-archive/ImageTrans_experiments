@@ -1,0 +1,72 @@
+[
+    {
+        "imgName": "1.jpg",
+        "width": 650,
+        "startTime": 1580450023828,
+        "endTime": 1580450032924,
+        "height": 2481
+    },
+    {
+        "imgName": "2.jpg",
+        "width": 650,
+        "startTime": 1580450032990,
+        "endTime": 1580450038745,
+        "height": 2060
+    },
+    {
+        "imgName": "3.jpg",
+        "width": 650,
+        "startTime": 1580450038779,
+        "endTime": 1580450057383,
+        "height": 4524
+    },
+    {
+        "imgName": "4.jpg",
+        "width": 650,
+        "startTime": 1580450057469,
+        "endTime": 1580450076147,
+        "height": 4359
+    },
+    {
+        "imgName": "5.jpg",
+        "width": 650,
+        "startTime": 1580450076229,
+        "endTime": 1580450104890,
+        "height": 5867
+    },
+    {
+        "imgName": "6.jpg",
+        "width": 650,
+        "startTime": 1580450105006,
+        "endTime": 1580450116759,
+        "height": 3086
+    },
+    {
+        "imgName": "7.jpg",
+        "width": 650,
+        "startTime": 1580450116821,
+        "endTime": 1580450124855,
+        "height": 2563
+    },
+    {
+        "imgName": "8.jpg",
+        "width": 650,
+        "startTime": 1580450124902,
+        "endTime": 1580450129457,
+        "height": 2070
+    },
+    {
+        "imgName": "9.jpg",
+        "width": 650,
+        "startTime": 1580450129491,
+        "endTime": 1580450131823,
+        "height": 2656
+    },
+    {
+        "imgName": "10.jpg",
+        "width": 650,
+        "startTime": 1580450131866,
+        "endTime": 1580450137754,
+        "height": 1605
+    }
+]

@@ -1,0 +1,1229 @@
+{
+    "settings": {
+        "fontStyles": [
+            {
+                "b4jfont": "System",
+                "size": 6,
+                "name": "非译元素",
+                "fontcolor": "0,0,0",
+                "line-height": 1.25,
+                "fontname": "ArialMT",
+                "alignment": 0,
+                "wrap": true,
+                "direction": 0
+            },
+            {
+                "b4jfont": "System",
+                "size": 6,
+                "name": "拟声词",
+                "fontcolor": "0,0,0",
+                "line-height": 1.25,
+                "fontname": "ArialMT",
+                "alignment": 0,
+                "wrap": true,
+                "direction": 0
+            }
+        ],
+        "right2left": false,
+        "targetLang": "",
+        "expand": "6",
+        "textLocalizationProcess": [
+            "去除外部区域",
+            "横向合并",
+            "纵向合并",
+            "过滤过小项",
+            "去除内部区域",
+            "拓展区域"
+        ],
+        "sourceLang": "",
+        "isBlack": false,
+        "resize": false,
+        "minimumHSpan": "20",
+        "minimumVSpan": "20"
+    },
+    "images": {
+        "2.jpg": {
+            "boxes": [
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.028569450601935387,
+                    "geometry": {
+                        "X": 179,
+                        "width": 47,
+                        "Y": 135,
+                        "height": 55
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9978534579277039,
+                    "geometry": {
+                        "X": 269,
+                        "width": 130,
+                        "Y": 301,
+                        "height": 87
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.994283139705658,
+                    "geometry": {
+                        "X": 27,
+                        "width": 223,
+                        "Y": 416,
+                        "height": 88
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.01362595520913601,
+                    "geometry": {
+                        "X": 140,
+                        "width": 150,
+                        "Y": 600,
+                        "height": 101
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.025740528479218483,
+                    "geometry": {
+                        "X": 278,
+                        "width": 37,
+                        "Y": 573,
+                        "height": 43
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0013194965431466699,
+                    "geometry": {
+                        "X": 125,
+                        "width": 31,
+                        "Y": 689,
+                        "height": 54
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.007708556018769741,
+                    "geometry": {
+                        "X": 299,
+                        "width": 49,
+                        "Y": 648,
+                        "height": 45
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.009929787367582321,
+                    "geometry": {
+                        "X": 48,
+                        "width": 75,
+                        "Y": 729,
+                        "height": 84
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "非译元素",
+                    "bgColor": "255,255,255",
+                    "probability": 1,
+                    "geometry": {
+                        "X": 627,
+                        "width": 43,
+                        "Y": 409,
+                        "height": 109
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0056900870986282825,
+                    "geometry": {
+                        "X": 264,
+                        "width": 41,
+                        "Y": 732,
+                        "height": 35
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.071820467710495,
+                    "geometry": {
+                        "X": 617,
+                        "width": 39,
+                        "Y": 478,
+                        "height": 36
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0035149187315255404,
+                    "geometry": {
+                        "X": 341,
+                        "width": 43,
+                        "Y": 729,
+                        "height": 54
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.003039733273908496,
+                    "geometry": {
+                        "X": 183,
+                        "width": 42,
+                        "Y": 810,
+                        "height": 58
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.00516993785277009,
+                    "geometry": {
+                        "X": 327,
+                        "width": 31,
+                        "Y": 785,
+                        "height": 35
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0018474918324500322,
+                    "geometry": {
+                        "X": 289,
+                        "width": 52,
+                        "Y": 815,
+                        "height": 38
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.1789601892232895,
+                    "geometry": {
+                        "X": 557,
+                        "width": 69,
+                        "Y": 660,
+                        "height": 57
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.003475156147032976,
+                    "geometry": {
+                        "X": 348,
+                        "width": 41,
+                        "Y": 794,
+                        "height": 72
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0023185615427792072,
+                    "geometry": {
+                        "X": 245,
+                        "width": 63,
+                        "Y": 834,
+                        "height": 50
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.26436808705329895,
+                    "geometry": {
+                        "X": 631,
+                        "width": 36,
+                        "Y": 602,
+                        "height": 37
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9889511466026306,
+                    "geometry": {
+                        "X": 386,
+                        "width": 177,
+                        "Y": 834,
+                        "height": 126
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.475994735956192,
+                    "geometry": {
+                        "X": 625,
+                        "width": 57,
+                        "Y": 701,
+                        "height": 51
+                    },
+                    "text": ""
+                }
+            ],
+            "text": ""
+        },
+        "3.jpg": {
+            "boxes": [
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.8049940466880798,
+                    "geometry": {
+                        "X": 132,
+                        "width": 121,
+                        "Y": 73,
+                        "height": 47
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 6.476793205365539E-4,
+                    "geometry": {
+                        "X": 225,
+                        "width": 147,
+                        "Y": 118,
+                        "height": 110
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0063150618225336075,
+                    "geometry": {
+                        "X": 75,
+                        "width": 42,
+                        "Y": 260,
+                        "height": 32
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.043191954493522644,
+                    "geometry": {
+                        "X": 115,
+                        "width": 40,
+                        "Y": 298,
+                        "height": 42
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.07678677141666412,
+                    "geometry": {
+                        "X": 154,
+                        "width": 69,
+                        "Y": 317,
+                        "height": 61
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.014331438578665257,
+                    "geometry": {
+                        "X": 400,
+                        "width": 74,
+                        "Y": 338,
+                        "height": 82
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 6.278738874243572E-5,
+                    "geometry": {
+                        "X": 540,
+                        "width": 51,
+                        "Y": 474,
+                        "height": 66
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.00632440997287631,
+                    "geometry": {
+                        "X": 522,
+                        "width": 62,
+                        "Y": 450,
+                        "height": 43
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.03363801911473274,
+                    "geometry": {
+                        "X": 486,
+                        "width": 93,
+                        "Y": 468,
+                        "height": 117
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9970261454582214,
+                    "geometry": {
+                        "X": 81,
+                        "width": 217,
+                        "Y": 613,
+                        "height": 86
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.01173494104295969,
+                    "geometry": {
+                        "X": 536,
+                        "width": 43,
+                        "Y": 432,
+                        "height": 35
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 7.735238177701831E-4,
+                    "geometry": {
+                        "X": 572,
+                        "width": 32,
+                        "Y": 368,
+                        "height": 35
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.06822504848241806,
+                    "geometry": {
+                        "X": 99,
+                        "width": 104,
+                        "Y": 759,
+                        "height": 67
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.07499367743730545,
+                    "geometry": {
+                        "X": 350,
+                        "width": 54,
+                        "Y": 715,
+                        "height": 89
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.00541777303442359,
+                    "geometry": {
+                        "X": 535,
+                        "width": 45,
+                        "Y": 622,
+                        "height": 51
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.011192544363439083,
+                    "geometry": {
+                        "X": 398,
+                        "width": 116,
+                        "Y": 726,
+                        "height": 98
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.16711539030075073,
+                    "geometry": {
+                        "X": 559,
+                        "width": 70,
+                        "Y": 671,
+                        "height": 50
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.004380655940622091,
+                    "geometry": {
+                        "X": 417,
+                        "width": 82,
+                        "Y": 815,
+                        "height": 106
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "拟声词",
+                    "bgColor": "255,255,255",
+                    "geometry": {
+                        "X": 440,
+                        "width": 230,
+                        "Y": 130,
+                        "height": 212
+                    },
+                    "text": "",
+                    "target": ""
+                }
+            ],
+            "text": ""
+        },
+        "4.jpg": {
+            "boxes": [
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9347193837165833,
+                    "geometry": {
+                        "X": 155,
+                        "width": 136,
+                        "Y": 49,
+                        "height": 48
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.006004899274557829,
+                    "geometry": {
+                        "X": 372,
+                        "width": 102,
+                        "Y": 175,
+                        "height": 74
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.006336345337331295,
+                    "geometry": {
+                        "X": 156,
+                        "width": 41,
+                        "Y": 400,
+                        "height": 33
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.009536067955195904,
+                    "geometry": {
+                        "X": 158,
+                        "width": 40,
+                        "Y": 460,
+                        "height": 42
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9533114433288574,
+                    "geometry": {
+                        "X": 33,
+                        "width": 136,
+                        "Y": 526,
+                        "height": 48
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.012347428128123283,
+                    "geometry": {
+                        "X": 610,
+                        "width": 31,
+                        "Y": 166,
+                        "height": 34
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.001266118255443871,
+                    "geometry": {
+                        "X": 396,
+                        "width": 161,
+                        "Y": 477,
+                        "height": 156
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 9.422464645467699E-4,
+                    "geometry": {
+                        "X": 392,
+                        "width": 115,
+                        "Y": 591,
+                        "height": 92
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.050843290984630585,
+                    "geometry": {
+                        "X": 226,
+                        "width": 40,
+                        "Y": 709,
+                        "height": 43
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.1399037390947342,
+                    "geometry": {
+                        "X": 145,
+                        "width": 33,
+                        "Y": 793,
+                        "height": 41
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 7.411777041852474E-4,
+                    "geometry": {
+                        "X": 247,
+                        "width": 32,
+                        "Y": 776,
+                        "height": 117
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 6.070605595596135E-4,
+                    "geometry": {
+                        "X": 461,
+                        "width": 48,
+                        "Y": 687,
+                        "height": 38
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9358673691749573,
+                    "geometry": {
+                        "X": 353,
+                        "width": 247,
+                        "Y": 833,
+                        "height": 86
+                    },
+                    "text": ""
+                }
+            ],
+            "text": ""
+        },
+        "5.jpg": {
+            "boxes": [
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.998751163482666,
+                    "geometry": {
+                        "X": 47,
+                        "width": 173,
+                        "Y": 70,
+                        "height": 86
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0014914446510374546,
+                    "geometry": {
+                        "X": 34,
+                        "width": 54,
+                        "Y": 197,
+                        "height": 41
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.005491242744028568,
+                    "geometry": {
+                        "X": 103,
+                        "width": 104,
+                        "Y": 179,
+                        "height": 149
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0045853788033127785,
+                    "geometry": {
+                        "X": 86,
+                        "width": 32,
+                        "Y": 326,
+                        "height": 42
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.002055099466815591,
+                    "geometry": {
+                        "X": 69,
+                        "width": 39,
+                        "Y": 347,
+                        "height": 65
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0020234689582139254,
+                    "geometry": {
+                        "X": 62,
+                        "width": 31,
+                        "Y": 390,
+                        "height": 40
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0030686301179230213,
+                    "geometry": {
+                        "X": 116,
+                        "width": 60,
+                        "Y": 409,
+                        "height": 82
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "拟声词",
+                    "bgColor": "255,255,255",
+                    "probability": 1,
+                    "geometry": {
+                        "X": 448,
+                        "width": 111,
+                        "Y": 9,
+                        "height": 159
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.017245961353182793,
+                    "geometry": {
+                        "X": 376,
+                        "width": 30,
+                        "Y": 264,
+                        "height": 51
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.014380342327058315,
+                    "geometry": {
+                        "X": 69,
+                        "width": 81,
+                        "Y": 531,
+                        "height": 89
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0028207022696733475,
+                    "geometry": {
+                        "X": 496,
+                        "width": 139,
+                        "Y": 209,
+                        "height": 186
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 7.997860084287822E-4,
+                    "geometry": {
+                        "X": 610,
+                        "width": 32,
+                        "Y": 1,
+                        "height": 23
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 7.247574394568801E-4,
+                    "geometry": {
+                        "X": 613,
+                        "width": 85,
+                        "Y": 210,
+                        "height": 51
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.09260762482881546,
+                    "geometry": {
+                        "X": 591,
+                        "width": 103,
+                        "Y": 268,
+                        "height": 57
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.003219070378690958,
+                    "geometry": {
+                        "X": 599,
+                        "width": 73,
+                        "Y": 302,
+                        "height": 53
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 8.891826728358865E-4,
+                    "geometry": {
+                        "X": 535,
+                        "width": 68,
+                        "Y": 411,
+                        "height": 66
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9445155262947083,
+                    "geometry": {
+                        "X": 461,
+                        "width": 91,
+                        "Y": 516,
+                        "height": 49
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0010162246180698276,
+                    "geometry": {
+                        "X": 584,
+                        "width": 78,
+                        "Y": 435,
+                        "height": 47
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "非译元素",
+                    "bgColor": "255,255,255",
+                    "probability": 1,
+                    "geometry": {
+                        "X": 362,
+                        "width": 86,
+                        "Y": 616,
+                        "height": 144
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.001500810612924397,
+                    "geometry": {
+                        "X": 663,
+                        "width": 30,
+                        "Y": 366,
+                        "height": 32
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.004022701643407345,
+                    "geometry": {
+                        "X": 610,
+                        "width": 42,
+                        "Y": 496,
+                        "height": 73
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.11234844475984573,
+                    "geometry": {
+                        "X": 284,
+                        "width": 40,
+                        "Y": 790,
+                        "height": 41
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.011941896751523018,
+                    "geometry": {
+                        "X": 508,
+                        "width": 33,
+                        "Y": 683,
+                        "height": 150
+                    },
+                    "text": ""
+                }
+            ],
+            "text": ""
+        },
+        "1.jpg": {
+            "boxes": [
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9647679328918457,
+                    "geometry": {
+                        "X": 149,
+                        "width": 211,
+                        "Y": 292,
+                        "height": 128
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.01826488971710205,
+                    "geometry": {
+                        "X": 24,
+                        "width": 60,
+                        "Y": 416,
+                        "height": 230
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 5.149492644704878E-4,
+                    "geometry": {
+                        "X": 114,
+                        "width": 42,
+                        "Y": 412,
+                        "height": 116
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9967413544654846,
+                    "geometry": {
+                        "X": 417,
+                        "width": 243,
+                        "Y": 193,
+                        "height": 127
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "拟声词",
+                    "bgColor": "255,255,255",
+                    "probability": 0.773611307144165,
+                    "geometry": {
+                        "X": 481,
+                        "width": 55,
+                        "Y": 55,
+                        "height": 62
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.2445741593837738,
+                    "geometry": {
+                        "X": 237,
+                        "width": 156,
+                        "Y": 462,
+                        "height": 184
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0014072564663365483,
+                    "geometry": {
+                        "X": 107,
+                        "width": 51,
+                        "Y": 543,
+                        "height": 82
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "拟声词",
+                    "bgColor": "255,255,255",
+                    "probability": 0.5000205636024475,
+                    "geometry": {
+                        "X": 600,
+                        "width": 48,
+                        "Y": 108,
+                        "height": 53
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.011524814181029797,
+                    "geometry": {
+                        "X": 116,
+                        "width": 37,
+                        "Y": 608,
+                        "height": 90
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.014237075112760067,
+                    "geometry": {
+                        "X": 160,
+                        "width": 35,
+                        "Y": 629,
+                        "height": 54
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.19831831753253937,
+                    "geometry": {
+                        "X": 482,
+                        "width": 32,
+                        "Y": 451,
+                        "height": 33
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.021647058427333832,
+                    "geometry": {
+                        "X": 26,
+                        "width": 77,
+                        "Y": 680,
+                        "height": 46
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.007741971407085657,
+                    "geometry": {
+                        "X": 158,
+                        "width": 52,
+                        "Y": 686,
+                        "height": 46
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.030719829723238945,
+                    "geometry": {
+                        "X": 216,
+                        "width": 98,
+                        "Y": 680,
+                        "height": 45
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "拟声词",
+                    "bgColor": "255,255,255",
+                    "probability": 0.9604231119155884,
+                    "geometry": {
+                        "X": 30,
+                        "width": 55,
+                        "Y": 719,
+                        "height": 61
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.012430164963006973,
+                    "geometry": {
+                        "X": 563,
+                        "width": 35,
+                        "Y": 527,
+                        "height": 31
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "拟声词",
+                    "bgColor": "255,255,255",
+                    "probability": 0.8158085942268372,
+                    "geometry": {
+                        "X": 55,
+                        "width": 47,
+                        "Y": 791,
+                        "height": 52
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0011228496441617608,
+                    "geometry": {
+                        "X": 135,
+                        "width": 51,
+                        "Y": 806,
+                        "height": 46
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0014905105344951153,
+                    "geometry": {
+                        "X": 593,
+                        "width": 39,
+                        "Y": 576,
+                        "height": 52
+                    },
+                    "text": ""
+                },
+                {
+                    "fontstyle": "非译元素",
+                    "bgColor": "255,255,255",
+                    "probability": 1,
+                    "geometry": {
+                        "X": 481,
+                        "width": 54,
+                        "Y": 678,
+                        "height": 115
+                    },
+                    "text": "",
+                    "target": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.003335527377203107,
+                    "geometry": {
+                        "X": 203,
+                        "width": 38,
+                        "Y": 814,
+                        "height": 48
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 3.4444479388184845E-4,
+                    "geometry": {
+                        "X": 137,
+                        "width": 36,
+                        "Y": 831,
+                        "height": 49
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.106574647128582,
+                    "geometry": {
+                        "X": 550,
+                        "width": 52,
+                        "Y": 783,
+                        "height": 57
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.6535983085632324,
+                    "geometry": {
+                        "X": 392,
+                        "width": 141,
+                        "Y": 915,
+                        "height": 50
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.02543644793331623,
+                    "geometry": {
+                        "X": 590,
+                        "width": 30,
+                        "Y": 840,
+                        "height": 49
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.2653830349445343,
+                    "geometry": {
+                        "X": 645,
+                        "width": 53,
+                        "Y": 806,
+                        "height": 58
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.46201807260513306,
+                    "geometry": {
+                        "X": 582,
+                        "width": 47,
+                        "Y": 890,
+                        "height": 37
+                    },
+                    "text": ""
+                }
+            ],
+            "text": ""
+        }
+    },
+    "dirPath": "E:\\B4J\\漫画数据集\\test\\中文\\逆转逃杀"
+}
