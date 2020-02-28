@@ -652,15 +652,17 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "拟声词",
                     "bgColor": "255,255,255",
-                    "probability": 0.028645025566220284,
+                    "probability": 1,
                     "geometry": {
-                        "X": 7,
-                        "width": 67,
-                        "Y": 218,
-                        "height": 79
+                        "X": 30,
+                        "width": 39,
+                        "Y": 235,
+                        "height": 53
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -689,12 +691,13 @@
                     "bgColor": "255,255,255",
                     "probability": 0.05635557323694229,
                     "geometry": {
-                        "X": 66,
+                        "X": 106,
                         "width": 32,
-                        "Y": 285,
+                        "Y": 306,
                         "height": 33
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -848,10 +851,11 @@
                     "geometry": {
                         "X": 366,
                         "width": 51,
-                        "Y": 410,
+                        "Y": 412,
                         "height": 77
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -3375,26 +3379,29 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "拟声词",
                     "bgColor": "255,255,255",
-                    "probability": 0.4887435734272003,
+                    "probability": 1,
                     "geometry": {
-                        "X": 119,
-                        "width": 125,
-                        "Y": 623,
-                        "height": 88
+                        "X": 127,
+                        "width": 70,
+                        "Y": 649,
+                        "height": 61
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.11784480512142181,
+                    "probability": 1,
                     "geometry": {
                         "X": 248,
                         "width": 56,
                         "Y": 603,
                         "height": 98
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -3444,12 +3451,13 @@
                     "bgColor": "255,255,255",
                     "probability": 0.012130986899137497,
                     "geometry": {
-                        "X": 182,
+                        "X": 178,
                         "width": 58,
-                        "Y": 698,
+                        "Y": 757,
                         "height": 68
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -4005,11 +4013,12 @@
                     "probability": 0.025227658450603485,
                     "geometry": {
                         "X": 635,
-                        "width": 40,
+                        "width": 39,
                         "Y": 287,
-                        "height": 49
+                        "height": 1
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",

@@ -254,15 +254,17 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
-                    "probability": 0.05087284371256828,
+                    "probability": 1,
                     "geometry": {
                         "X": 44,
                         "width": 138,
                         "Y": 1040,
                         "height": 131
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -396,9 +398,9 @@
                     "probability": 1,
                     "geometry": {
                         "X": 15,
-                        "width": 414,
+                        "width": 339,
                         "Y": 15,
-                        "height": 56
+                        "height": 53
                     },
                     "text": "",
                     "target": ""
@@ -3456,7 +3458,7 @@
                     "geometry": {
                         "X": 528,
                         "width": 36,
-                        "Y": 744,
+                        "Y": 746,
                         "height": 46
                     },
                     "text": "",
@@ -7256,7 +7258,7 @@
                 {
                     "fontstyle": "拟声词",
                     "bgColor": "255,255,255",
-                    "probability": 0.408662348985672,
+                    "probability": 1,
                     "geometry": {
                         "X": 204,
                         "width": 50,
@@ -7293,11 +7295,12 @@
                     "probability": 0.9994121789932251,
                     "geometry": {
                         "X": 34,
-                        "width": 170,
+                        "width": 130,
                         "Y": 525,
-                        "height": 83
+                        "height": 73
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -7807,6 +7810,17 @@
                         "height": 49
                     },
                     "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "geometry": {
+                        "X": 160,
+                        "width": 48,
+                        "Y": 572,
+                        "height": 38
+                    },
+                    "text": "",
+                    "target": ""
                 }
             ],
             "text": ""

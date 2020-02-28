@@ -1,9 +1,7 @@
 {
     "settings": {
-        "fontStyles": [],
-        "right2left": false,
         "targetLang": "",
-        "expand": "6",
+        "otsu_enabled": true,
         "textLocalizationProcess": [
             "去除外部区域",
             "横向合并",
@@ -12,11 +10,22 @@
             "去除内部区域",
             "拓展区域"
         ],
+        "inferSeparation": true,
+        "blur": false,
+        "minimumHeight": "3",
+        "threshold": "200",
+        "minimumHSpan": "30",
+        "fontStyles": [],
+        "right2left": false,
+        "autoFontSize": true,
+        "dilation": 2,
+        "expand": "6",
         "sourceLang": "",
-        "isBlack": false,
+        "imgQuality": 90,
         "resize": false,
-        "minimumHSpan": "20",
-        "minimumVSpan": "20"
+        "maximumHeight": "200",
+        "autoThreshold": true,
+        "minimumVSpan": "30"
     },
     "images": {
         "2.jpg": {
@@ -45,7 +54,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.994283139705658,
+                    "probability": 0.8797358870506287,
                     "geometry": {
                         "X": 27,
                         "width": 223,
@@ -78,7 +87,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.0013194965431466699,
+                    "probability": 0.0037779989652335644,
                     "geometry": {
                         "X": 125,
                         "width": 31,
@@ -111,7 +120,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.015444790944457054,
+                    "probability": 0.05388742312788963,
                     "geometry": {
                         "X": 627,
                         "width": 39,
@@ -144,12 +153,12 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.0035149187315255404,
+                    "probability": 0.0018913137027993798,
                     "geometry": {
-                        "X": 341,
-                        "width": 43,
+                        "X": 319,
+                        "width": 70,
                         "Y": 729,
-                        "height": 54
+                        "height": 137
                     },
                     "text": ""
                 },
@@ -161,17 +170,6 @@
                         "width": 42,
                         "Y": 810,
                         "height": 58
-                    },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.00516993785277009,
-                    "geometry": {
-                        "X": 327,
-                        "width": 31,
-                        "Y": 785,
-                        "height": 35
                     },
                     "text": ""
                 },
@@ -194,17 +192,6 @@
                         "width": 69,
                         "Y": 660,
                         "height": 57
-                    },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.003475156147032976,
-                    "geometry": {
-                        "X": 348,
-                        "width": 41,
-                        "Y": 794,
-                        "height": 72
                     },
                     "text": ""
                 },
@@ -259,7 +246,7 @@
             "boxes": [
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.8049940466880798,
+                    "probability": 0.9911460280418396,
                     "geometry": {
                         "X": 132,
                         "width": 121,
@@ -270,10 +257,10 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 6.476793205365539E-4,
+                    "probability": 8.848946308717132E-4,
                     "geometry": {
                         "X": 225,
-                        "width": 147,
+                        "width": 141,
                         "Y": 118,
                         "height": 110
                     },
@@ -303,6 +290,17 @@
                 },
                 {
                     "bgColor": "255,255,255",
+                    "probability": 9.684805991128087E-4,
+                    "geometry": {
+                        "X": 100,
+                        "width": 36,
+                        "Y": 320,
+                        "height": 38
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
                     "probability": 0.07678677141666412,
                     "geometry": {
                         "X": 154,
@@ -325,12 +323,23 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 6.278738874243572E-5,
+                    "probability": 0.0010553437750786543,
+                    "geometry": {
+                        "X": 515,
+                        "width": 45,
+                        "Y": 192,
+                        "height": 49
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.004228092730045319,
                     "geometry": {
                         "X": 509,
-                        "width": 51,
-                        "Y": 192,
-                        "height": 66
+                        "width": 43,
+                        "Y": 228,
+                        "height": 30
                     },
                     "text": ""
                 },
@@ -358,7 +367,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9970261454582214,
+                    "probability": 0.9984496831893921,
                     "geometry": {
                         "X": 81,
                         "width": 217,
@@ -391,7 +400,18 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.06822504848241806,
+                    "probability": 0.189845010638237,
+                    "geometry": {
+                        "X": 551,
+                        "width": 116,
+                        "Y": 491,
+                        "height": 116
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.031596217304468155,
                     "geometry": {
                         "X": 99,
                         "width": 104,
@@ -402,7 +422,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.07499367743730545,
+                    "probability": 0.00730903772637248,
                     "geometry": {
                         "X": 350,
                         "width": 54,
@@ -413,23 +433,23 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.00541777303442359,
+                    "probability": 0.005625784397125244,
                     "geometry": {
                         "X": 535,
                         "width": 45,
-                        "Y": 622,
-                        "height": 51
+                        "Y": 617,
+                        "height": 56
                     },
                     "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.011192544363439083,
+                    "probability": 0.00296446168795228,
                     "geometry": {
                         "X": 398,
-                        "width": 116,
+                        "width": 73,
                         "Y": 726,
-                        "height": 98
+                        "height": 77
                     },
                     "text": ""
                 },
@@ -441,6 +461,17 @@
                         "width": 70,
                         "Y": 671,
                         "height": 50
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.07093402743339539,
+                    "geometry": {
+                        "X": 415,
+                        "width": 71,
+                        "Y": 778,
+                        "height": 46
                     },
                     "text": ""
                 },
@@ -462,7 +493,7 @@
             "boxes": [
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9347193837165833,
+                    "probability": 0.9980473518371582,
                     "geometry": {
                         "X": 155,
                         "width": 136,
@@ -506,7 +537,18 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9533114433288574,
+                    "probability": 0.021816743537783623,
+                    "geometry": {
+                        "X": 486,
+                        "width": 32,
+                        "Y": 192,
+                        "height": 35
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.9993734955787659,
                     "geometry": {
                         "X": 33,
                         "width": 136,
@@ -528,23 +570,34 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.001266118255443871,
+                    "probability": 0.00106614432297647,
                     "geometry": {
                         "X": 396,
                         "width": 161,
                         "Y": 477,
-                        "height": 156
+                        "height": 151
                     },
                     "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 9.422464645467699E-4,
+                    "probability": 0.0013949396088719368,
+                    "geometry": {
+                        "X": 182,
+                        "width": 53,
+                        "Y": 687,
+                        "height": 31
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.0016597936628386378,
                     "geometry": {
                         "X": 392,
                         "width": 115,
-                        "Y": 591,
-                        "height": 92
+                        "Y": 592,
+                        "height": 91
                     },
                     "text": ""
                 },
@@ -572,7 +625,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 7.411777041852474E-4,
+                    "probability": 0.004684267565608025,
                     "geometry": {
                         "X": 247,
                         "width": 32,
@@ -594,7 +647,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9358673691749573,
+                    "probability": 0.996625542640686,
                     "geometry": {
                         "X": 353,
                         "width": 247,
@@ -610,7 +663,7 @@
             "boxes": [
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.998751163482666,
+                    "probability": 0.992219865322113,
                     "geometry": {
                         "X": 47,
                         "width": 173,
@@ -654,7 +707,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.002055099466815591,
+                    "probability": 0.0017207920318469405,
                     "geometry": {
                         "X": 69,
                         "width": 39,
@@ -676,10 +729,10 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.0030686301179230213,
+                    "probability": 0.002028431510552764,
                     "geometry": {
-                        "X": 116,
-                        "width": 60,
+                        "X": 122,
+                        "width": 55,
                         "Y": 409,
                         "height": 82
                     },
@@ -694,12 +747,11 @@
                         "Y": 9,
                         "height": 159
                     },
-                    "text": "",
-                    "target": ""
+                    "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.017245961353182793,
+                    "probability": 0.002141261473298073,
                     "geometry": {
                         "X": 376,
                         "width": 30,
@@ -721,10 +773,10 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.0028207022696733475,
+                    "probability": 0.016487903892993927,
                     "geometry": {
                         "X": 496,
-                        "width": 139,
+                        "width": 124,
                         "Y": 209,
                         "height": 186
                     },
@@ -743,34 +795,23 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 7.247574394568801E-4,
+                    "probability": 1.8924225878436118E-4,
                     "geometry": {
                         "X": 613,
                         "width": 85,
-                        "Y": 210,
-                        "height": 51
+                        "Y": 212,
+                        "height": 49
                     },
                     "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.09260762482881546,
+                    "probability": 0.15927642583847046,
                     "geometry": {
                         "X": 591,
                         "width": 103,
                         "Y": 268,
-                        "height": 57
-                    },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.003219070378690958,
-                    "geometry": {
-                        "X": 599,
-                        "width": 73,
-                        "Y": 302,
-                        "height": 53
+                        "height": 67
                     },
                     "text": ""
                 },
@@ -787,7 +828,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9445155262947083,
+                    "probability": 0.8982804417610168,
                     "geometry": {
                         "X": 461,
                         "width": 91,
@@ -798,10 +839,10 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.0010162246180698276,
+                    "probability": 0.021076418459415436,
                     "geometry": {
-                        "X": 584,
-                        "width": 78,
+                        "X": 583,
+                        "width": 79,
                         "Y": 435,
                         "height": 47
                     },
@@ -809,7 +850,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.005843441933393478,
+                    "probability": 0.01090796384960413,
                     "geometry": {
                         "X": 380,
                         "width": 67,
@@ -831,7 +872,18 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.004022701643407345,
+                    "probability": 0.012864360585808754,
+                    "geometry": {
+                        "X": 88,
+                        "width": 66,
+                        "Y": 755,
+                        "height": 46
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.007211027201265097,
                     "geometry": {
                         "X": 610,
                         "width": 42,
@@ -869,19 +921,18 @@
             "boxes": [
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9647679328918457,
+                    "probability": 0.9917665123939514,
                     "geometry": {
                         "X": 149,
                         "width": 211,
                         "Y": 292,
                         "height": 128
                     },
-                    "text": "",
-                    "target": ""
+                    "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.01826488971710205,
+                    "probability": 0.061294011771678925,
                     "geometry": {
                         "X": 24,
                         "width": 60,
@@ -892,18 +943,18 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 5.149492644704878E-4,
+                    "probability": 0.0013106763362884521,
                     "geometry": {
-                        "X": 114,
-                        "width": 42,
+                        "X": 107,
+                        "width": 51,
                         "Y": 412,
-                        "height": 116
+                        "height": 318
                     },
                     "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9967413544654846,
+                    "probability": 0.992889404296875,
                     "geometry": {
                         "X": 417,
                         "width": 243,
@@ -936,17 +987,6 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.0014072564663365483,
-                    "geometry": {
-                        "X": 107,
-                        "width": 51,
-                        "Y": 543,
-                        "height": 82
-                    },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
                     "probability": 0.5000205636024475,
                     "geometry": {
                         "X": 600,
@@ -958,62 +998,40 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.011524814181029797,
+                    "probability": 0.03298071399331093,
                     "geometry": {
-                        "X": 116,
-                        "width": 37,
-                        "Y": 608,
-                        "height": 90
-                    },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.014237075112760067,
-                    "geometry": {
-                        "X": 160,
-                        "width": 35,
-                        "Y": 629,
-                        "height": 54
-                    },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.19831831753253937,
-                    "geometry": {
-                        "X": 482,
-                        "width": 32,
+                        "X": 457,
+                        "width": 57,
                         "Y": 451,
-                        "height": 33
+                        "height": 61
                     },
                     "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.021647058427333832,
-                    "geometry": {
-                        "X": 26,
-                        "width": 77,
-                        "Y": 680,
-                        "height": 46
-                    },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.007741971407085657,
+                    "probability": 0.043745603412389755,
                     "geometry": {
                         "X": 158,
                         "width": 52,
-                        "Y": 686,
-                        "height": 46
+                        "Y": 629,
+                        "height": 103
                     },
                     "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.030719829723238945,
+                    "probability": 0.019342761486768723,
+                    "geometry": {
+                        "X": 16,
+                        "width": 87,
+                        "Y": 680,
+                        "height": 50
+                    },
+                    "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "probability": 0.04963298887014389,
                     "geometry": {
                         "X": 216,
                         "width": 98,
@@ -1031,8 +1049,7 @@
                         "Y": 719,
                         "height": 61
                     },
-                    "text": "",
-                    "target": ""
+                    "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -1058,21 +1075,21 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.0011228496441617608,
+                    "probability": 0.0022246839944273233,
                     "geometry": {
-                        "X": 135,
-                        "width": 51,
+                        "X": 140,
+                        "width": 46,
                         "Y": 806,
-                        "height": 46
+                        "height": 45
                     },
                     "text": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.0014905105344951153,
+                    "probability": 8.222499745897949E-4,
                     "geometry": {
-                        "X": 593,
-                        "width": 39,
+                        "X": 594,
+                        "width": 38,
                         "Y": 576,
                         "height": 52
                     },
@@ -1080,7 +1097,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.4243167042732239,
+                    "probability": 0.1990271657705307,
                     "geometry": {
                         "X": 481,
                         "width": 54,
@@ -1124,7 +1141,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6535983085632324,
+                    "probability": 0.7788370251655579,
                     "geometry": {
                         "X": 392,
                         "width": 141,
@@ -1135,7 +1152,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.02543644793331623,
+                    "probability": 0.030446525663137436,
                     "geometry": {
                         "X": 590,
                         "width": 30,

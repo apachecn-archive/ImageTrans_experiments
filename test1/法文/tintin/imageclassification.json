@@ -1,0 +1,37 @@
+[
+    {
+        "imgName": "06.jpg",
+        "width": 1000,
+        "startTime": 1582810920000,
+        "endTime": 1582810925484,
+        "height": 1478
+    },
+    {
+        "imgName": "07.jpg",
+        "width": 1000,
+        "startTime": 1582810925522,
+        "endTime": 1582810931037,
+        "height": 1501
+    },
+    {
+        "imgName": "08.jpg",
+        "width": 1000,
+        "startTime": 1582810931077,
+        "endTime": 1582810940772,
+        "height": 1489
+    },
+    {
+        "imgName": "09.jpg",
+        "width": 1000,
+        "startTime": 1582810940810,
+        "endTime": 1582810946812,
+        "height": 1470
+    },
+    {
+        "imgName": "10.jpg",
+        "width": 1000,
+        "startTime": 1582810946845,
+        "endTime": 1582810951070,
+        "height": 1491
+    }
+]

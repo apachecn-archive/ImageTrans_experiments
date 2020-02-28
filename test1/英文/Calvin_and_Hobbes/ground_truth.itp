@@ -1,9 +1,7 @@
 {
     "settings": {
-        "fontStyles": [],
-        "right2left": false,
         "targetLang": "",
-        "expand": "6",
+        "otsu_enabled": true,
         "textLocalizationProcess": [
             "去除外部区域",
             "横向合并",
@@ -12,11 +10,57 @@
             "去除内部区域",
             "拓展区域"
         ],
+        "inferSeparation": true,
+        "blur": false,
+        "minimumHeight": "3",
+        "threshold": "200",
+        "minimumHSpan": "15",
+        "fontStyles": [
+            {
+                "b4jfont": "System",
+                "size": 6,
+                "name": "非译元素",
+                "fontcolor": "0,0,0",
+                "line-height": 1.25,
+                "fontname": "ArialMT",
+                "alignment": 0,
+                "wrap": true,
+                "direction": 0
+            },
+            {
+                "b4jfont": "System",
+                "size": 6,
+                "name": "拟声词",
+                "fontcolor": "0,0,0",
+                "line-height": 1.25,
+                "fontname": "ArialMT",
+                "alignment": 0,
+                "wrap": true,
+                "direction": 0
+            },
+            {
+                "b4jfont": "System",
+                "size": 6,
+                "name": "正文",
+                "fontcolor": "0,0,0",
+                "line-height": 1.25,
+                "fontname": "ArialMT",
+                "alignment": 0,
+                "wrap": true,
+                "direction": 0
+            }
+        ],
+        "right2left": false,
+        "expand": "6",
+        "autoFontSize": true,
+        "dilation": 2,
         "sourceLang": "",
         "isBlack": false,
         "resize": false,
-        "minimumHSpan": "15",
-        "minimumVSpan": "10"
+        "imgQuality": 90,
+        "maximumHeight": "200",
+        "minimumVSpan": "10",
+        "autoThreshold": true
     },
     "images": {
         "CHB01P006.jpg": {
@@ -429,6 +473,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9397908449172974,
                     "geometry": {
@@ -441,14 +486,15 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.8674647808074951,
+                    "probability": 0,
                     "geometry": {
                         "X": 1115,
                         "width": 69,
                         "Y": 999,
                         "height": 38
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -562,7 +608,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.879622757434845,
+                    "probability": 0,
                     "geometry": {
                         "X": 1547,
                         "width": 33,
@@ -584,7 +630,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9166325926780701,
+                    "probability": 0,
                     "geometry": {
                         "X": 1561,
                         "width": 33,
@@ -594,6 +640,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9464859962463379,
                     "geometry": {
@@ -701,23 +748,13 @@
                     "bgColor": "255,255,255",
                     "probability": 0.5349168181419373,
                     "geometry": {
-                        "X": 593,
-                        "width": 106,
-                        "Y": 69,
-                        "height": 45
+                        "X": 592,
+                        "width": 114,
+                        "Y": 46,
+                        "height": 66
                     },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.24966882169246674,
-                    "geometry": {
-                        "X": 606,
-                        "width": 56,
-                        "Y": 45,
-                        "height": 44
-                    },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -929,6 +966,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9886366724967957,
                     "geometry": {
@@ -937,7 +975,8 @@
                         "Y": 493,
                         "height": 47
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -963,7 +1002,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5166892409324646,
+                    "probability": 0,
                     "geometry": {
                         "X": 1093,
                         "width": 36,
@@ -1172,7 +1211,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.8934247493743896,
+                    "probability": 0,
                     "geometry": {
                         "X": 1370,
                         "width": 74,
@@ -1194,7 +1233,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6310165524482727,
+                    "probability": 0,
                     "geometry": {
                         "X": 1423,
                         "width": 33,
@@ -1237,15 +1276,17 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9688021540641785,
                     "geometry": {
-                        "X": 968,
+                        "X": 970,
                         "width": 92,
-                        "Y": 1121,
+                        "Y": 1122,
                         "height": 45
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -1315,7 +1356,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.05162575840950012,
+                    "probability": 1,
                     "geometry": {
                         "X": 1550,
                         "width": 212,
@@ -1572,6 +1613,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.6697825789451599,
                     "geometry": {
@@ -1580,7 +1622,8 @@
                         "Y": 490,
                         "height": 45
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -1616,6 +1659,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9162269830703735,
                     "geometry": {
@@ -2161,7 +2205,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.7489914894104004,
+                    "probability": 0,
                     "geometry": {
                         "X": 183,
                         "width": 78,
@@ -2458,7 +2502,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9159541726112366,
+                    "probability": 0,
                     "geometry": {
                         "X": 313,
                         "width": 124,
@@ -2491,7 +2535,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5103424191474915,
+                    "probability": 0,
                     "geometry": {
                         "X": 464,
                         "width": 48,
@@ -2545,6 +2589,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.6117087602615356,
                     "geometry": {
@@ -2553,7 +2598,8 @@
                         "Y": 1115,
                         "height": 45
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -2568,7 +2614,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6539909839630127,
+                    "probability": 0,
                     "geometry": {
                         "X": 728,
                         "width": 238,
@@ -2579,14 +2625,15 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5857354402542114,
+                    "probability": 0,
                     "geometry": {
                         "X": 886,
                         "width": 56,
                         "Y": 931,
                         "height": 51
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -2622,6 +2669,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.79465252161026,
                     "geometry": {
@@ -2700,14 +2748,15 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5616399645805359,
+                    "probability": 0,
                     "geometry": {
-                        "X": 1536,
+                        "X": 1534,
                         "width": 37,
-                        "Y": 407,
+                        "Y": 408,
                         "height": 38
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -2821,7 +2870,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5755289196968079,
+                    "probability": 0,
                     "geometry": {
                         "X": 1711,
                         "width": 39,
@@ -2854,7 +2903,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5088564157485962,
+                    "probability": 0,
                     "geometry": {
                         "X": 1703,
                         "width": 36,
@@ -3332,7 +3381,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.9780253767967224,
+                    "probability": 0,
                     "geometry": {
                         "X": 838,
                         "width": 126,
@@ -3409,7 +3458,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.3903430700302124,
+                    "probability": 1,
                     "geometry": {
                         "X": 1199,
                         "width": 155,
@@ -3441,6 +3490,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9883497953414917,
                     "geometry": {
@@ -3449,7 +3499,8 @@
                         "Y": 485,
                         "height": 50
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -3464,14 +3515,15 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5218853950500488,
+                    "probability": 0,
                     "geometry": {
-                        "X": 1263,
+                        "X": 1264,
                         "width": 54,
-                        "Y": 963,
+                        "Y": 962,
                         "height": 43
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -3515,18 +3567,8 @@
                         "Y": 698,
                         "height": 75
                     },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.5081642866134644,
-                    "geometry": {
-                        "X": 1699,
-                        "width": 34,
-                        "Y": 401,
-                        "height": 32
-                    },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -3865,7 +3907,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6695266366004944,
+                    "probability": 0,
                     "geometry": {
                         "X": 1044,
                         "width": 36,
@@ -3876,7 +3918,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5740472674369812,
+                    "probability": 0,
                     "geometry": {
                         "X": 1094,
                         "width": 33,
@@ -4007,6 +4049,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9927803874015808,
                     "geometry": {
@@ -4118,14 +4161,15 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.8197336792945862,
+                    "probability": 0,
                     "geometry": {
                         "X": 1525,
                         "width": 67,
                         "Y": 429,
                         "height": 38
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -4249,6 +4293,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9632643461227417,
                     "geometry": {
@@ -4419,17 +4464,20 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "拟声词",
                     "bgColor": "255,255,255",
                     "probability": 0.5021416544914246,
                     "geometry": {
                         "X": 659,
-                        "width": 172,
+                        "width": 319,
                         "Y": 672,
-                        "height": 218
+                        "height": 202
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9825146794319153,
                     "geometry": {
@@ -4475,18 +4523,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6198984980583191,
-                    "geometry": {
-                        "X": 799,
-                        "width": 152,
-                        "Y": 768,
-                        "height": 78
-                    },
-                    "text": ""
-                },
-                {
-                    "bgColor": "255,255,255",
-                    "probability": 0.5130583047866821,
+                    "probability": 0,
                     "geometry": {
                         "X": 1119,
                         "width": 33,
@@ -4530,7 +4567,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.7390674352645874,
+                    "probability": 0,
                     "geometry": {
                         "X": 1150,
                         "width": 42,
@@ -4716,6 +4753,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9878262877464294,
                     "geometry": {
@@ -4724,7 +4762,8 @@
                         "Y": 1112,
                         "height": 51
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 }
             ],
             "text": ""
@@ -4758,15 +4797,16 @@
                     "probability": 0.9962676167488098,
                     "geometry": {
                         "X": 270,
-                        "width": 78,
+                        "width": 80,
                         "Y": 256,
-                        "height": 67
+                        "height": 40
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6938115954399109,
+                    "probability": 0,
                     "geometry": {
                         "X": 182,
                         "width": 44,
@@ -4832,7 +4872,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6252601146697998,
+                    "probability": 0,
                     "geometry": {
                         "X": 488,
                         "width": 49,
@@ -5008,7 +5048,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6920824646949768,
+                    "probability": 0,
                     "geometry": {
                         "X": 995,
                         "width": 49,
@@ -5250,7 +5290,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6373011469841003,
+                    "probability": 0,
                     "geometry": {
                         "X": 1413,
                         "width": 49,
@@ -5282,6 +5322,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.6156520247459412,
                     "geometry": {
@@ -5290,7 +5331,8 @@
                         "Y": 471,
                         "height": 66
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -5326,15 +5368,17 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
-                    "probability": 0.47852590680122375,
+                    "probability": 1,
                     "geometry": {
-                        "X": 1356,
-                        "width": 130,
-                        "Y": 1078,
-                        "height": 86
+                        "X": 1362,
+                        "width": 108,
+                        "Y": 1104,
+                        "height": 60
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -5349,7 +5393,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.7461365461349487,
+                    "probability": 0,
                     "geometry": {
                         "X": 1637,
                         "width": 34,
@@ -5360,7 +5404,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.8242707848548889,
+                    "probability": 0,
                     "geometry": {
                         "X": 1651,
                         "width": 35,
@@ -5371,7 +5415,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.5094165205955505,
+                    "probability": 0,
                     "geometry": {
                         "X": 1653,
                         "width": 30,
@@ -5412,6 +5456,17 @@
                         "height": 31
                     },
                     "text": ""
+                },
+                {
+                    "bgColor": "255,255,255",
+                    "geometry": {
+                        "X": 294,
+                        "width": 58,
+                        "Y": 288,
+                        "height": 30
+                    },
+                    "text": "",
+                    "target": ""
                 }
             ],
             "text": ""
@@ -5860,7 +5915,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.2751174569129944,
+                    "probability": 1,
                     "geometry": {
                         "X": 1229,
                         "width": 114,
@@ -5914,6 +5969,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9766315817832947,
                     "geometry": {
@@ -5925,15 +5981,17 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "拟声词",
                     "bgColor": "255,255,255",
-                    "probability": 0.9527513384819031,
+                    "probability": 1,
                     "geometry": {
-                        "X": 1426,
-                        "width": 47,
+                        "X": 1380,
+                        "width": 110,
                         "Y": 494,
-                        "height": 37
+                        "height": 38
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -6173,7 +6231,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.733762800693512,
+                    "probability": 0,
                     "geometry": {
                         "X": 637,
                         "width": 40,
@@ -6238,6 +6296,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9777576327323914,
                     "geometry": {
@@ -6337,6 +6396,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "正文",
                     "bgColor": "255,255,255",
                     "probability": 0.9696310758590698,
                     "geometry": {
@@ -6345,7 +6405,8 @@
                         "Y": 703,
                         "height": 53
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -6425,6 +6486,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "正文",
                     "bgColor": "255,255,255",
                     "probability": 0.9971722960472107,
                     "geometry": {
@@ -6433,7 +6495,8 @@
                         "Y": 441,
                         "height": 65
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
@@ -6480,6 +6543,7 @@
                     "text": ""
                 },
                 {
+                    "fontstyle": "非译元素",
                     "bgColor": "255,255,255",
                     "probability": 0.9535028338432312,
                     "geometry": {
@@ -6488,7 +6552,8 @@
                         "Y": 1118,
                         "height": 46
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",
