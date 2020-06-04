@@ -8447,14 +8447,15 @@
                 },
                 {
                     "bgColor": "255,255,255",
-                    "probability": 0.6183483600616455,
+                    "probability": 0,
                     "geometry": {
                         "X": 703,
                         "width": 18,
                         "Y": 731,
                         "height": 21
                     },
-                    "text": ""
+                    "text": "",
+                    "target": ""
                 },
                 {
                     "bgColor": "255,255,255",

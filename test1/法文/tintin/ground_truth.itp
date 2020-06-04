@@ -714,6 +714,7 @@
                 },
                 {
                     "bgColor": "255,255,255",
+                    "probability": 1,
                     "geometry": {
                         "X": 33,
                         "width": 94,
